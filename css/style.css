@@ -316,3 +316,64 @@ button {
 .features__card-img {
   margin-bottom: 30px;
 }
+
+.interface {
+  background-color: #f7fffc;
+}
+
+.interface__container {
+  max-width: 1270px;
+  margin-right: auto;
+  margin-left: 215px;
+  padding: 78px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.interface__title {
+  padding-top: 65px;
+  margin-bottom: 15px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  color: #18216D;
+}
+
+.interface__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 90px;
+}
+
+.interface__description {
+  margin-bottom: 40px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #18216D;
+  opacity: 0.8;
+}
+
+.interface__button {
+  width: 168px;
+  padding: 16px 28px;
+  text-align: center;
+  background: #005FEC;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  color: #ffffff;
+}
