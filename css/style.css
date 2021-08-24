@@ -15,6 +15,14 @@ button {
   margin: auto;
 }
 
+.title-sz-48 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  color: #18216D;
+}
+
 .header-container {
   max-width: 1400px;
   margin: auto;
@@ -124,11 +132,6 @@ button {
   margin: 0;
   padding: 60px 0px 0px 0px;
   margin-bottom: 16px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 60px;
-  color: #18216D;
 }
 
 .hero__description {
@@ -153,7 +156,7 @@ button {
   border-radius: 6px;
 }
 
-.collaborate__container {
+.collaborate__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -171,7 +174,6 @@ button {
 }
 
 .collaborate__description {
-  font-family: Inter;
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -211,7 +213,6 @@ button {
 
 .collaborate__count {
   color: #18216D;
-  font-family: Inter;
   font-style: normal;
   font-weight: bold;
   font-size: 60px;
@@ -219,7 +220,6 @@ button {
 }
 
 .collaborate__count-description {
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -227,7 +227,7 @@ button {
   color: #18216D;
 }
 
-.sponsors__image {
+.sponsors {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -236,4 +236,83 @@ button {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin-bottom: 130px;
+}
+
+.features {
+  padding-bottom: 130px;
+}
+
+.features__title {
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.features__description {
+  margin: auto;
+  max-width: 542px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #18216D;
+  margin-bottom: 50px;
+}
+
+.features__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.features__card {
+  max-width: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.features__card-title {
+  margin-bottom: 15px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #18216D;
+}
+
+.features__card-description {
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #18216D;
+  opacity: 0.6;
+}
+
+.features__card-more {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 16px;
+  color: #18216D;
+}
+
+.features__card-img {
+  margin-bottom: 30px;
 }
