@@ -1,0 +1,92 @@
+.benefits
+  &__container
+    padding-top: 130px
+    padding-bottom: 130px
+  &__wrapper
+    display: flex
+    align-items: center
+    justify-content: space-between
+  &__text
+    max-width: 500px
+    max-height: 450px
+    display: flex
+    flex-direction: column
+    align-items: start
+    justify-content: space-between
+
+  &__interface
+    position: relative
+    border-radius: 50px
+  &__img
+    &-main
+      border-radius: 20px
+      width: 400px
+      height: 450px
+
+      object-fit: cover
+
+    &-helper
+      position: absolute
+      top: 20px
+      left: 20px
+      z-index: 99
+      border-radius: 10px
+      border: 1px solid #FFFFFF
+    &-record
+      display: flex
+      align-items: center
+      border-radius: 4px
+      padding: 7px 16px
+      width: 85px
+      height: 30px
+      background-color: #fff
+      position: absolute
+      right: 20px
+      top: 20px
+      &-text
+        margin-left: 5px
+  &__decoration
+    position: absolute
+    bottom: -13px
+    left: -20px
+    transform: translate(-50%,-50%)
+    z-index: -1
+
+  &__user
+    &-avatar
+      width: 36px
+      height: 36px
+  &__title
+    margin-bottom: 16px
+    font-style: normal
+    font-weight: 600
+    font-size: 36px
+    line-height: 48px
+    color: $text-color
+  &__description
+    margin-bottom: 30px
+    font-style: normal
+    font-weight: normal
+    font-size: 16px
+    line-height: 30px
+    color: $text-color
+  &__item
+    margin-bottom: 30px
+    display: flex
+    align-items: center
+    &-text
+      margin-left: 10px
+      font-style: normal
+      font-weight: 500
+      font-size: 18px
+      line-height: 18px
+      color: $text-color
+  &__button
+    background: #005FEC
+    color: $light
+    border-radius: 6px
+    padding: 15px 30px
+    font-style: normal
+    font-weight: normal
+    font-size: 16px
+    line-height: 26px
