@@ -520,3 +520,216 @@ li {
   font-size: 16px;
   line-height: 26px;
 }
+
+.pricing {
+  position: relative;
+  padding-bottom: 130px;
+}
+
+.pricing__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -1px;
+  text-transform: capitalize;
+  color: #18216D;
+}
+
+.pricing__description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #18216D;
+  max-width: 542px;
+  margin: auto;
+}
+
+.pricing__choose {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 6px;
+  width: 272px;
+  height: 60px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  background-color: #e5eefd;
+  border-radius: 6px;
+}
+
+.pricing__choose-annualy {
+  width: 135px;
+  height: 48px;
+  background-color: #fff;
+  padding: 16px 32px;
+  border-radius: 6px;
+}
+
+.pricing__choose-annualy-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 17px;
+  color: #005FEC;
+}
+
+.pricing__choose-monthly {
+  width: 135px;
+  height: 48px;
+  padding: 16px 32px;
+  border-radius: 6px;
+}
+
+.pricing__choose-monthly-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 17px;
+  color: #18216D;
+}
+
+.pricing__card {
+  padding-top: 20px;
+  min-width: 355px;
+  min-height: 620px;
+  border: 1px solid #b7bcc2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.pricing__card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.pricing__card-plan {
+  display: block;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 48px;
+  color: #18216D;
+}
+
+.pricing__card-plan-wrapper {
+  padding-left: 40px;
+}
+
+.pricing__card-price {
+  display: block;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  color: #18216D;
+  margin-bottom: 40px;
+}
+
+.pricing__card-price-month {
+  color: #6D6D6D;
+}
+
+.pricing__card-list {
+  padding-left: 40px;
+  text-align: center;
+  min-width: 250px;
+  min-height: 270px;
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.pricing__card-item-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.pricing__card-item-text {
+  display: block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 24px;
+  color: #18216D;
+}
+
+.pricing__card-item--not-avaible {
+  opacity: 0.5;
+}
+
+.pricing__card-button {
+  margin-left: 40px;
+  padding: 16px 36px;
+  margin-bottom: 60px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #18216D;
+  background-color: #e5eefd;
+  border-radius: 6px;
+}
+
+.pricing__card-button--business {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.pricing__card-button--pro {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #005FEC;
+}
+
+.pricing__agree-icon {
+  margin-right: 12px;
+}
+
+.line {
+  padding: 0;
+  opacity: 0.2;
+  border: 1px solid #000000;
+  width: 355px;
+  height: 0;
+}
